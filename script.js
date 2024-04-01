@@ -1,5 +1,5 @@
 const postsList=document.getElementById('postsList')
-const url='https://jsonplaceholder.typicode.com/posts'
+const url='https://jsonplaceholder.typpicode.com/posts'
 async function fetchData(url){
     try{
         const response=await fetch(url);
